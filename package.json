@@ -1,0 +1,25 @@
+{
+  "name": "video-automation-pipeline-sample",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "node ./scripts/fix-dist-imports.cjs",
+    "preview": "npx remotion studio src/remotion.tsx --public-dir assets",
+    "render": "node ./dist/main.js",
+    "start": "npm run build && npm run render"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0",
+    "@remotion/renderer": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.4",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.6.0"
+  }
+}

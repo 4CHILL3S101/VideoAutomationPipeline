@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:06,000
+In 1969, humanity reached for the Moon.
+
+2
+00:00:06,000 --> 00:00:12,000
+A Saturn V rocket carried three astronauts skyward.
+
+3
+00:00:12,000 --> 00:00:18,000
+On July 20th, they made history.

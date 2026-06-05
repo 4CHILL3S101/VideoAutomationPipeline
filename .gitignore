@@ -1,0 +1,14 @@
+node_modules
+dist
+build
+
+# Remotion
+.remotion
+node_modules/.cache
+*.pack
+
+# OS
+.DS_Store
+
+# logs
+*.log
