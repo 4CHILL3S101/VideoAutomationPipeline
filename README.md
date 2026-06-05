@@ -47,11 +47,17 @@ Ensuring subtitles remain correctly synchronized after rendering
 
 # SETUP 
 
-Step 1: ```ts npm install ```
+```ts 
+npm install 
+```
 
-Step 2: ```ts npm run build ```
+```ts 
+npm run build 
+```
 
-Step 3: ```ts npm run start```
+```ts 
+npm run start
+```
 
 
 # OUTPUT LOCATION
