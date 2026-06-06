@@ -30,10 +30,14 @@ cinematic mode (with smooth transitions)
 
 The default can be set to "none" to ensure frame-accurate timing when required.
 
-#Tricky Parts
+# Tricky Parts
+
 Synchronizing image timing with voice duration without hardcoding values
+
 Handling crossfade timing correctly without breaking total duration alignment
+
 Balancing background music so it does not overpower the voice track
+
 Ensuring subtitles remain correctly synchronized after rendering
 
 # Improvements
