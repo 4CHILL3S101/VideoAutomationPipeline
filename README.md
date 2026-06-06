@@ -32,13 +32,13 @@ The default can be set to "none" to ensure frame-accurate timing when required.
 
 # Tricky Parts
 
-Synchronizing image timing with voice duration without hardcoding values
+- Synchronizing image timing with voice duration without hardcoding values
 
-Handling crossfade timing correctly without breaking total duration alignment
+- Handling crossfade timing correctly without breaking total duration alignment
 
-Balancing background music so it does not overpower the voice track
+- Balancing background music so it does not overpower the voice track
 
-Ensuring subtitles remain correctly synchronized after rendering
+- Ensuring subtitles remain correctly synchronized after rendering
 
 # Improvements
 - Introduce a render queue system to support multiple video generation jobs asynchronously instead of single execution.
